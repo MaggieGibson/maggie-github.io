@@ -7,6 +7,7 @@
         padding: 10px 100px;
         box-sizing: border-box;
         transition: .3s;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
       }
       p {
         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
@@ -25,6 +26,21 @@
         font-size: 35px;
         color: white;
         text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 10px;
+        overflow: hidden;
+      }
+      li {
+          float: left;
+      }
+
+      li a {
+          display: block;
+          padding: 50px;
+          background-color: white;
       }
 
     @media screen and (max-width: 800px) {
