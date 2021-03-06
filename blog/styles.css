@@ -31,21 +31,17 @@
         margin: 80px;
       }
       ul {
+        position: fixed;
         list-style-type: none;
         margin: 0px;
         padding: 00px;
         overflow: hidden;
         margin: 70px;
       }
-      li {
-          float: left;
-          margin: 70px;
-          padding: 50px;
-      }
 
       li a {
           font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-          font-size: 30px;
+          font-size: 40px;
           display: block;
           padding: 50px;
           background-color: lightblue;
